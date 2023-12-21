@@ -1,0 +1,418 @@
+:root{
+    --light-color:#f3f7fa;
+    --warning-color:#FBC101;
+}
+
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: #FBC101;
+}
+
+.sitename{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+  
+}
+
+.logo {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 20px;
+
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover{
+    color:#f3f7fa;
+}
+
+
+body{
+    background-image: url("./backgrdimg.jpg");
+    height: 730px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+
+.middle-title{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.text1{
+    padding-left:67%;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.text2{
+    padding-left: 67%;
+    font-size: 20px;
+
+}
+
+nav span{
+    float: right;
+    padding-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+.button-men{
+    background-color:#FBC101;
+    border-radius: 10px;
+    border: 1px solid var(--warning-color);
+    color:black;
+   height: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.button-men:hover{
+        background-color:#f3f7fa;
+        color: black;
+}
+
+.button-women{
+    cursor: pointer;
+    background-color:#FBC101;
+    border-radius: 10px;
+    border: 1px solid var(--warning-color);
+    color:black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 95px;
+}
+
+.button-women:hover{
+        background-color:#f3f7fa;
+        color:black;
+}
+
+/* 2nd page */
+
+.mechanisms{
+    background-color: #f3f7fa;
+   height: 730px;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   margin-top: 35%;
+   
+}
+
+.section-title{
+    padding-top: 50px;
+    padding-left: 80px;
+
+}
+
+h5{
+    padding-left: 5px;  
+}
+
+h1{
+    padding-top: 25px;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ 
+.card{
+    flex-basis: 31%;
+    background:#fcf5f0;
+    border-radius:20px;
+    border: 1px solid #FBC101;
+    box-sizing: border-box;
+    height: 210px;
+    width: 150%;
+    margin: 5%;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.card img{
+    background-color: #FBC101;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.card h4{
+    padding-top: 20px;
+    font-size:small;
+}
+
+.card p{
+    font-size:small;
+    text-align:justify;
+    padding: 5px;
+}
+ 
+
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+    display: block;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 5%;
+    
+}
+
+  
+   /* 3rd page  */
+
+   .design{
+    background-color: #DFECF4 ;
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+ }
+
+ .design-img img{
+    width: 120%;
+    height: 800px;
+    margin-left: 5%;
+}
+
+.title h5{
+  padding-left: 5px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.title h1{
+    font-size: 50px;
+    padding-left:5px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.title p{
+    width: 50%;
+    padding-left: 5px;
+   text-align: left;
+   font-size: 13px;
+}
+
+
+
+
+
+
+/* 4th page */
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f7fa;
+    height: 500px;
+}
+
+.box{
+    background-color: #FBC101;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 170px;
+    width: 20%;
+    flex-basis: 30%;
+    margin: 10%;
+}
+
+.button-info{
+    cursor: pointer;
+    background-color:#f3f7fa;
+    border-radius: 10px;
+    border: 2px solid var(--light-color);
+    color:black;
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+    width: 95px;
+    font-weight:bold;
+    
+}
+.button-info:hover{
+    background-color:rgb(243, 199, 110);
+    color:black;
+
+}
+
+.box h5{
+   text-align: center;
+   margin-top:20px;
+}
+/* 5thpage */
+.Feedback{
+    background-color: #000000;
+    height: 700px;
+}
+
+.topic{
+color: white;
+padding-left: 50px;
+padding-top: 50px;
+font-size: larger;
+}
+
+.commentbox{
+    background-color: #DFECF4;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 60%;
+    flex-basis: 30%;
+    margin-left: 20%;
+    margin-top: 5%;
+    
+}
+
+.boyimg img{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.rate{
+    padding-right:30px ;
+}
+
+.rate p{
+    color:black;
+    padding-bottom: 20%;
+}
+
+/* 6thpage */
+
+.branch{
+    background-color: #f3f7fa;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.sunlogo{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.sitename1{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.sunlogo img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.follow{
+   display: flex;
+   align-items: center;
+   padding-left: 60%;
+   padding-top: 75px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.address1 h5{
+    padding: 20px;
+}
+
+/* footer */
+footer{
+    background-color: #DFECF4;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
